@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-to-r"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "python"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+dagger-io = "^0.4.2"
+pandas = "^2.0.0"
+pyarrow = "^11.0.0"
+rpy2 = "^3.5.10"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
